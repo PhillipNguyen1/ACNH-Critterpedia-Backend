@@ -1,0 +1,27 @@
+{
+  "name": "acnh-critterpedia-backend",
+  "version": "1.0.0",
+  "description": "Backend repository for Animal Crossing New Horizon Critterpedia",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhillipNguyen1/ACNH-Critterpedia-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhillipNguyen1/ACNH-Critterpedia-Backend/issues"
+  },
+  "homepage": "https://github.com/PhillipNguyen1/ACNH-Critterpedia-Backend#readme"
+}
