@@ -7,12 +7,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'npm install'
+                sh 'npm install'
             }
         }
         stage('Test') {
             steps {
-                bat 'npm test'
+                sh 'npm test'
             }
         }
     }
