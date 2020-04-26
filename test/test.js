@@ -23,6 +23,6 @@ describe('GET /', function () {
   });
 
   it('respond with Hello World!', function (done) {
-    request(server).get('/').expect('Goodbye World!', done);
+    request(server).get('/').expect('Hello World!', done);
   });
 });
