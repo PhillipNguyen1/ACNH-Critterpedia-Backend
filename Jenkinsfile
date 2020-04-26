@@ -22,7 +22,7 @@ pipeline {
                         description: "Jenkins Pipeline Build", 
                         link: env.BUILD_URL, 
                         result: currentBuild.currentResult,
-                        successful: currentBuild.resultIsBetterOrEqualTo('SUCCESS')
+                        successful: currentBuild.resultIsBetterOrEqualTo('SUCCESS'),
                         title: env.JOB_NAME
                         
         }
