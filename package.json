@@ -4,16 +4,19 @@
   "description": "Backend repository for Animal Crossing New Horizon Critterpedia",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
   },
   "devDependencies": {
     "chai": "*",
     "mocha": "*",
+    "nodemon": "^2.0.3",
     "really-need": "^1.9.2",
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "mocha"
   },
   "repository": {

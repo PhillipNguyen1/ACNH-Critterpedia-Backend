@@ -12,7 +12,7 @@ describe('indexOf()', function () {
 });
 
 // Integration test example. Requires application to be built first to test
-describe('GET /', function () {
+xdescribe('GET /', function () {
   var server;
   beforeEach(function () {
     delete require.cache[require.resolve('../app')]; // Removes cache to get a fresh instance of the server
